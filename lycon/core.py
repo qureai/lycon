@@ -1,13 +1,18 @@
 import _lycon
 
+import os
 import itertools
 
 from .enum import (Decode, Encode, Interpolation)
+
 
 def load(path, mode=Decode.UNCHANGED):
     """
     Loads and returns the image at the given path as a numpy ndarray.
     """
+    if not os.path.isfile(path):
+        raise FileNotFoundError("No such file: '{}'".format(path))
+
     return _lycon.load(path, mode)
 
 def save(path, image, options=None):
