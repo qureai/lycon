@@ -18,7 +18,7 @@ Tested on:
 
 ## API
 
-Check out [API](api.md)
+Check out [API](api.md).
 
 
 ## Install

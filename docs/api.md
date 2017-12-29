@@ -59,13 +59,13 @@ See `lycon.save`.
 
 *Keys:*
     
-- PNG_COMPRESSION
-- PNG_STRATEGY
-- PNG_BILEVEL
-- PNG_STRATEGY_DEFAULT
-- PNG_STRATEGY_FILTERED
-- PNG_STRATEGY_HUFFMAN_ONLY
-- PNG_STRATEGY_RLE
-- PNG_STRATEGY_FIXED
+- `lycon.Encode.PNG_COMPRESSION`
+- `lycon.Encode.PNG_STRATEGY`
+- `lycon.Encode.PNG_BILEVEL`
+- `lycon.Encode.PNG_STRATEGY_DEFAULT`
+- `lycon.Encode.PNG_STRATEGY_FILTERED`
+- `lycon.Encode.PNG_STRATEGY_HUFFMAN_ONLY`
+- `lycon.Encode.PNG_STRATEGY_RLE`
+- `lycon.Encode.PNG_STRATEGY_FIXED`
 
 *Values*: An integer from 0 to 9. A higher value means a smaller size and longer compression time. Default value is 3.
